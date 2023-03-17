@@ -4,39 +4,72 @@
     box-sizing: border-box;
     background-color: hsl(0, 0%, 1%);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
+        
 }
-.Soporte {
-    width: 100%;
-    align-items: center;
-    background-color: blueviolet;
+#body {
+    color: rgb(207, 69, 177);
 }
-
 .titulo {
     text-align: center;
     color: rgb(22, 230, 133);
-    border-color: rgb(202, 82, 82);
+    
+}
+.Soporte1 {
+    width:max-content;
+    
+   
+}
+.Soporte2 {
+    float:left;
+    width:max-content;
+   
+   
+}
+.Soporte3 {
+    width:max-content;
+    
+    float: left;
+} 
+.Soporte4 {
+    float:initial;
+    width:max-content;
+    align-items: center;
+    
 }
 
 .card {
-    float:inline-end;
     width: 100%;
-    height: auto;
+     
     color: rgb(22, 230, 133);
     
+    
 }
-img {
-    width: 75%;
-    height: auto;
-    margin-top: 30%;
-    margin-left: 25%;
-    margin-right: 25%;
+#foto {    
+    width: 85%; 
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: auto;    
     border-radius: 25px;
 }
-.carusel {
-    width: 10%;
-    float:right
+img {
+    display: block;
+    width: 100%; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;    
+    border-radius: 25px;
 }
-.contenido {
-    background-color: brown;
+.carousel {
+    width: 100%;
+    
+    margin-bottom: 30px; 
+    
+}
+.img_carousel {    
+    margin: auto;
+}
+footer {
+    color: blueviolet;
 }
